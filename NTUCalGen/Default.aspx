@@ -6,8 +6,8 @@
 <head runat="server">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115304762-2"></script>
-    <script>
+    <script data-cfasync="false" async src="https://www.googletagmanager.com/gtag/js?id=UA-115304762-2"></script>
+    <script data-cfasync="false">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
