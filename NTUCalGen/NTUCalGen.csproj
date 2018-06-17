@@ -118,6 +118,8 @@
     <Content Include="assets\img\.DS_Store" />
     <Content Include="assets\img\portfolio\.DS_Store" />
     <Content Include="assets\js\.DS_Store" />
+    <None Include="Properties\PublishProfiles\ntucalgen - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ntucalgen - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -148,7 +150,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
